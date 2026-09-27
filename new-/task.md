@@ -1,0 +1,19 @@
+- [ ] Add backend dependencies (mongoose, bcryptjs, cookie-parser, dotenv)
+- [ ] Create .env.example with required vars
+- [ ] Setup Mongoose connection (backend/db.js)
+- [ ] Create User, Service, Booking models (backend/models)
+- [ ] Implement auth routes (backend/routes/auth.js) with register, login, me, logout
+- [ ] Implement auth middleware (backend/middleware/auth.js)
+- [ ] Refactor server.js to use new DB and middleware, remove file DB helpers
+- [ ] Protect existing routes with requireAuth and role middleware
+- [ ] Create protected customer and provider route files (backend/routes/customer.js, provider.js)
+- [ ] Update package.json scripts for backend
+- [ ] Frontend: add AuthContext, api utility
+- [ ] Frontend: update Register.jsx and Login.jsx with validation and API calls
+- [ ] Frontend: create ProtectedRoute and RoleProtectedRoute components
+- [ ] Frontend: add customer and provider dashboards (pages/customer/Dashboard.jsx, pages/provider/Dashboard.jsx)
+- [ ] Frontend: update routing to include new pages and protect them
+- [ ] Frontend: add logout functionality
+- [ ] Ensure CORS and credentials handling
+- [ ] Test all flows manually
+- [ ] Update README with setup instructions

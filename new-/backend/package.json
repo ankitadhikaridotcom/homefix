@@ -1,0 +1,25 @@
+{
+  "name": "homefix-backend",
+  "version": "1.0.0",
+  "description": "Backend API for HomeFix",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.6.2",
+    "google-auth-library": "^11.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0",
+    "multer": "^2.2.0",
+    "razorpay": "^2.9.8",
+    "twilio": "^6.1.0"
+  }
+}

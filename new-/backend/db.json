@@ -1,0 +1,18 @@
+{
+  "bookings": [
+    {
+      "id": "HF1001",
+      "customerId": "6a83617aea5566c566d4db45",
+      "customerName": "Ankit Adhikari",
+      "status": "pending",
+      "createdAt": "2026-08-17T20:18:43.817Z",
+      "serviceId": "6a8360cbea5566c566d4db37",
+      "providerId": 1,
+      "date": "2026-08-18",
+      "time": "10:00 AM",
+      "duration": 1,
+      "total": 924,
+      "paymentMethod": "upi"
+    }
+  ]
+}
